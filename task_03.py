@@ -32,4 +32,4 @@ def lexicographics(to_analyze):
     minnum = min(value)
     maxnum = max(value)
     avgnum = Decimal(sum(value))/Decimal(len(value))
-    return (minnum, maxnum, avgnum)
+    return (maxnum, minnum, avgnum)
